@@ -1,0 +1,25 @@
+{
+  "name": "cli-tutorial",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib",
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "cli-tutorial": "index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "camelcase": "^4.1.0",
+    "chalk": "^2.3.2",
+    "require-dir": "^1.0.0",
+    "shelljs": "^0.8.1",
+    "yargs": "^11.0.0"
+  }
+}
